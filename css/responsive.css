@@ -1,3 +1,17 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	float: none;
+	
+	
+	color: black;
+}
+
 .clear-box{
 	clear:both;
 	overflow: hidden;
@@ -11,12 +25,14 @@ header{
 header nav{
 	margin-left:auto;
 	margin-right:auto;
-	width:100%;
+	/*width:100%;*/
+	width:auto;
 }
 header img{
-	height:100%;
-	/*height:26%;*/
-	width:100%;
+	/*height:100%;*/
+	height:26%;
+	width:auto;
+	/*width:100%;*/
 	/*width:75%;*/
 	margin-left:auto;
 	margin-right:auto;
@@ -31,9 +47,11 @@ header #logo{
 header #list {
 	list-style: none;
 	text-decoration: none;
-	float:right;
+	float:left;
+	/*float:right;*/
 }
 header #list li{
+	/*float:none;*/
 	float:left;
 }
 header #list li a{
@@ -45,23 +63,33 @@ header #list li a{
 	/*padding-right:0.75%;*/
 }
 .information{
+	float:none;
 	margin-left:auto;
 	margin-right:auto;
 	/*width:1000px;*/
-	width:75%;
+	/*width:75%;*/
 }
 #infoLeft{
-	width: 30%;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	/*width: 30%;*/
 	/*float: left;*/
 }
 #infoCenter{
-	width: 30%;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	/*width: 30%;*/
 	/*float: left;*/
 	/*margin-left:5%;*/
 	/*margin-right:5%;*/
 }
 #infoRight{
-	width: 30%;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	/*width: 30%;*/
 	/*float: left;*/
 }
 #textLeft p{
@@ -79,16 +107,21 @@ header #list li a{
 	color:white;
 }
 #img03{
+	float:none;
 	margin-top:4%;
 }
 .welcomeAndCategories{
 	margin-left:auto;
 	margin-right:auto;
 	/*width:1000px;*/
-	width:100%;
+	/*width:100%;*/
+	width:auto;
+	float:none;
 }
 #welcome{
-	width: 100%;
+	width:auto;
+	float:none;
+	/*width: 100%;*/
 	/*float: left;*/
 	margin-right:10%;
 }
@@ -104,6 +137,7 @@ header #list li a{
 	color:white;
 }
 #list{
+	float:none;
 	/*float:left;*/
 	list-style:none;
 }
@@ -121,7 +155,7 @@ footer{
 	margin-top:20px;
 	/*margin-top:1.3%;*/
 	/*width:100%;*/
-	/*background-image: url(../img/img05.jpg);*/
+	background-image: url(../img/img05.jpg);
 	/*height: 300px;*/
 	/*height: 19.6%;*/
 }
@@ -129,7 +163,8 @@ footer nav{
 	margin-left:auto;
 	margin-right:auto;
 	/*width:1000px;*/
-	width:100%;
+	/*width:100%;*/
+	width:auto;
 }
 footer ul{
 	/*float: left;*/
